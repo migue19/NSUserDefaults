@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *valueToSave = @"Miguel Mexicano Herrera";
+    [[NSUserDefaults standardUserDefaults] setObject:valueToSave forKey:@"NameComplete"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
 

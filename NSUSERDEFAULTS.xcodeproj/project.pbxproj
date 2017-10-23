@@ -13,6 +13,7 @@
 		491E15D71F9E892800490FB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491E15D61F9E892800490FB5 /* Assets.xcassets */; };
 		491E15DA1F9E892800490FB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491E15D81F9E892800490FB5 /* LaunchScreen.storyboard */; };
 		491E15DD1F9E892800490FB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 491E15DC1F9E892800490FB5 /* main.m */; };
+		491E15E51F9E899200490FB5 /* NameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 491E15E41F9E899200490FB5 /* NameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		491E15D91F9E892800490FB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		491E15DB1F9E892800490FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		491E15DC1F9E892800490FB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		491E15E31F9E899200490FB5 /* NameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NameViewController.h; sourceTree = "<group>"; };
+		491E15E41F9E899200490FB5 /* NameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				491E15CE1F9E892800490FB5 /* AppDelegate.m */,
 				491E15D01F9E892800490FB5 /* ViewController.h */,
 				491E15D11F9E892800490FB5 /* ViewController.m */,
+				491E15E31F9E899200490FB5 /* NameViewController.h */,
+				491E15E41F9E899200490FB5 /* NameViewController.m */,
 				491E15D31F9E892800490FB5 /* Main.storyboard */,
 				491E15D61F9E892800490FB5 /* Assets.xcassets */,
 				491E15D81F9E892800490FB5 /* LaunchScreen.storyboard */,
@@ -145,6 +150,7 @@
 				491E15D21F9E892800490FB5 /* ViewController.m in Sources */,
 				491E15DD1F9E892800490FB5 /* main.m in Sources */,
 				491E15CF1F9E892800490FB5 /* AppDelegate.m in Sources */,
+				491E15E51F9E899200490FB5 /* NameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
